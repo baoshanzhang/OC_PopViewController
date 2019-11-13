@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61013AC237BA47800F1D5AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C61013AB237BA47800F1D5AA /* AppDelegate.m */; };
+		C61013AF237BA47800F1D5AA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C61013AE237BA47800F1D5AA /* SceneDelegate.m */; };
+		C61013B2237BA47800F1D5AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61013B1237BA47800F1D5AA /* ViewController.m */; };
+		C61013B5237BA47800F1D5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61013B3237BA47800F1D5AA /* Main.storyboard */; };
+		C61013B7237BA47900F1D5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61013B6237BA47900F1D5AA /* Assets.xcassets */; };
+		C61013BA237BA47900F1D5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61013B8237BA47900F1D5AA /* LaunchScreen.storyboard */; };
+		C61013BD237BA47900F1D5AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C61013BC237BA47900F1D5AA /* main.m */; };
+		C61013C7237BABF700F1D5AA /* PopPresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61013C6237BABF700F1D5AA /* PopPresentController.m */; };
+		C61013CA237BD1CA00F1D5AA /* UIViewController+PopPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = C61013C9237BD1CA00F1D5AA /* UIViewController+PopPresent.m */; };
+		C61013CD237BD28F00F1D5AA /* PopPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C61013CC237BD28F00F1D5AA /* PopPresentAnimation.m */; };
+		C61013D0237C00FC00F1D5AA /* TestPopController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61013CF237C00FC00F1D5AA /* TestPopController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C61013A7237BA47800F1D5AA /* BSPopViewController_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSPopViewController_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61013AA237BA47800F1D5AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C61013AB237BA47800F1D5AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C61013AD237BA47800F1D5AA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C61013AE237BA47800F1D5AA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C61013B0237BA47800F1D5AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C61013B1237BA47800F1D5AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C61013B4237BA47800F1D5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C61013B6237BA47900F1D5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C61013B9237BA47900F1D5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C61013BB237BA47900F1D5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61013BC237BA47900F1D5AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C61013C4237BA83E00F1D5AA /* PopPresentHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopPresentHeader.h; sourceTree = "<group>"; };
+		C61013C5237BABF700F1D5AA /* PopPresentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopPresentController.h; sourceTree = "<group>"; };
+		C61013C6237BABF700F1D5AA /* PopPresentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopPresentController.m; sourceTree = "<group>"; };
+		C61013C8237BD1CA00F1D5AA /* UIViewController+PopPresent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PopPresent.h"; sourceTree = "<group>"; };
+		C61013C9237BD1CA00F1D5AA /* UIViewController+PopPresent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PopPresent.m"; sourceTree = "<group>"; };
+		C61013CB237BD28F00F1D5AA /* PopPresentAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopPresentAnimation.h; sourceTree = "<group>"; };
+		C61013CC237BD28F00F1D5AA /* PopPresentAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopPresentAnimation.m; sourceTree = "<group>"; };
+		C61013CE237C00FC00F1D5AA /* TestPopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPopController.h; sourceTree = "<group>"; };
+		C61013CF237C00FC00F1D5AA /* TestPopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPopController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C61013A4237BA47800F1D5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C610139E237BA47800F1D5AA = {
+			isa = PBXGroup;
+			children = (
+				C61013A9237BA47800F1D5AA /* BSPopViewController_OC */,
+				C61013A8237BA47800F1D5AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C61013A8237BA47800F1D5AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C61013A7237BA47800F1D5AA /* BSPopViewController_OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61013A9237BA47800F1D5AA /* BSPopViewController_OC */ = {
+			isa = PBXGroup;
+			children = (
+				C61013C3237BA7F500F1D5AA /* PopView */,
+				C61013AA237BA47800F1D5AA /* AppDelegate.h */,
+				C61013AB237BA47800F1D5AA /* AppDelegate.m */,
+				C61013AD237BA47800F1D5AA /* SceneDelegate.h */,
+				C61013AE237BA47800F1D5AA /* SceneDelegate.m */,
+				C61013B0237BA47800F1D5AA /* ViewController.h */,
+				C61013B1237BA47800F1D5AA /* ViewController.m */,
+				C61013CE237C00FC00F1D5AA /* TestPopController.h */,
+				C61013CF237C00FC00F1D5AA /* TestPopController.m */,
+				C61013B3237BA47800F1D5AA /* Main.storyboard */,
+				C61013B6237BA47900F1D5AA /* Assets.xcassets */,
+				C61013B8237BA47900F1D5AA /* LaunchScreen.storyboard */,
+				C61013BB237BA47900F1D5AA /* Info.plist */,
+				C61013BC237BA47900F1D5AA /* main.m */,
+			);
+			path = BSPopViewController_OC;
+			sourceTree = "<group>";
+		};
+		C61013C3237BA7F500F1D5AA /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				C61013C4237BA83E00F1D5AA /* PopPresentHeader.h */,
+				C61013C5237BABF700F1D5AA /* PopPresentController.h */,
+				C61013C6237BABF700F1D5AA /* PopPresentController.m */,
+				C61013CB237BD28F00F1D5AA /* PopPresentAnimation.h */,
+				C61013CC237BD28F00F1D5AA /* PopPresentAnimation.m */,
+				C61013C8237BD1CA00F1D5AA /* UIViewController+PopPresent.h */,
+				C61013C9237BD1CA00F1D5AA /* UIViewController+PopPresent.m */,
+			);
+			path = PopView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C61013A6237BA47800F1D5AA /* BSPopViewController_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61013C0237BA47900F1D5AA /* Build configuration list for PBXNativeTarget "BSPopViewController_OC" */;
+			buildPhases = (
+				C61013A3237BA47800F1D5AA /* Sources */,
+				C61013A4237BA47800F1D5AA /* Frameworks */,
+				C61013A5237BA47800F1D5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSPopViewController_OC;
+			productName = BSPopViewController_OC;
+			productReference = C61013A7237BA47800F1D5AA /* BSPopViewController_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C610139F237BA47800F1D5AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "张宝山";
+				TargetAttributes = {
+					C61013A6237BA47800F1D5AA = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = C61013A2237BA47800F1D5AA /* Build configuration list for PBXProject "BSPopViewController_OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C610139E237BA47800F1D5AA;
+			productRefGroup = C61013A8237BA47800F1D5AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C61013A6237BA47800F1D5AA /* BSPopViewController_OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C61013A5237BA47800F1D5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61013BA237BA47900F1D5AA /* LaunchScreen.storyboard in Resources */,
+				C61013B7237BA47900F1D5AA /* Assets.xcassets in Resources */,
+				C61013B5237BA47800F1D5AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C61013A3237BA47800F1D5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61013CA237BD1CA00F1D5AA /* UIViewController+PopPresent.m in Sources */,
+				C61013D0237C00FC00F1D5AA /* TestPopController.m in Sources */,
+				C61013CD237BD28F00F1D5AA /* PopPresentAnimation.m in Sources */,
+				C61013B2237BA47800F1D5AA /* ViewController.m in Sources */,
+				C61013AC237BA47800F1D5AA /* AppDelegate.m in Sources */,
+				C61013BD237BA47900F1D5AA /* main.m in Sources */,
+				C61013C7237BABF700F1D5AA /* PopPresentController.m in Sources */,
+				C61013AF237BA47800F1D5AA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C61013B3237BA47800F1D5AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61013B4237BA47800F1D5AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C61013B8237BA47900F1D5AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61013B9237BA47900F1D5AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C61013BE237BA47900F1D5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C61013BF237BA47900F1D5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C61013C1237BA47900F1D5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T276T2NBU;
+				INFOPLIST_FILE = BSPopViewController_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oc-zhangbaoshan.BSPopViewController-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C61013C2237BA47900F1D5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T276T2NBU;
+				INFOPLIST_FILE = BSPopViewController_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oc-zhangbaoshan.BSPopViewController-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C61013A2237BA47800F1D5AA /* Build configuration list for PBXProject "BSPopViewController_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61013BE237BA47900F1D5AA /* Debug */,
+				C61013BF237BA47900F1D5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61013C0237BA47900F1D5AA /* Build configuration list for PBXNativeTarget "BSPopViewController_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61013C1237BA47900F1D5AA /* Debug */,
+				C61013C2237BA47900F1D5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C610139F237BA47800F1D5AA /* Project object */;
+}
